@@ -1,4 +1,5 @@
 import './App.css';
+import DessertsList from './DessertsList';
 
 const desserts = [
   {
@@ -28,6 +29,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>List of low calorie desserts:</h2>
+        <DessertsList data={desserts} />
       </header>
     </div>
   );
